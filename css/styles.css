@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto",
         sans-serif;
+    line-height: 1.5;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -31,7 +32,8 @@ a{
         color: #2e2f42;
 }
 
-.nav-link:hover, .nav-link:focus, .address-link:hover, .address-link:focus{
+.nav-link:hover, .nav-link:focus, .address-link:hover, 
+.address-link:focus{
     color: #404bbf;
 }
 
@@ -47,7 +49,7 @@ a{
 }
 .hero-title{
         font-size: 56px;
-        line-height: 1.10;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -61,6 +63,10 @@ a{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color:#fff
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404bbf;;
 }
 .benefits-subtitle{
     font-weight: 500;
@@ -84,7 +90,7 @@ a{
     text-align: center;
     color: #2e2f42;
 }
-.team-list{
+.team-item{
     background-color: #fff;
 }
 .team-name{
@@ -133,5 +139,8 @@ a{
     color: #4d5ae5;
 }
 .footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
